@@ -4,7 +4,7 @@
   "description": "前端自动化测试学习(jest)",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,10 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
+    "@types/jest": "^25.2.3",
     "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
   }
 }
